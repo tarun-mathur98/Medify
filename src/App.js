@@ -3,9 +3,7 @@ import { Outlet } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 import DownloadApp from "./components/Sections/DownloadApp/DownloadApp";
 
-
-const App = ()=>{
-
+const App = () => {
   return (
     <div>
       <CssBaseline />
@@ -13,8 +11,7 @@ const App = ()=>{
       <DownloadApp />
       <Footer />
     </div>
-  )
-}
-
+  );
+};
 
 export default App;

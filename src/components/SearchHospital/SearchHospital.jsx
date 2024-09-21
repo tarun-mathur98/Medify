@@ -4,7 +4,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-const SearchHospital = () => {
+export default function SearchHospital() {
   const [states, setStates] = useState([]);
   const [cities, setCities] = useState([]);
   const [formData, setFormData] = useState({ state: "", city: "" });
@@ -129,4 +129,3 @@ const SearchHospital = () => {
     </Box>
   );
 };
-export default SearchHospital;

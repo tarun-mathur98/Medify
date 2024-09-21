@@ -10,6 +10,7 @@ import NavBar from "../components/NavBar/NavBar";
 import HeroSlider from "../components/HeroSlider/HeroSlider";
 import SearchHospital from "../components/SearchHospital/SearchHospital";
 import HeroServices from "../components/IconLayout/HeroServices";
+// import Search from "../Search/Search";
 
 const Home = () => {
   return (
